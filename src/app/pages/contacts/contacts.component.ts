@@ -41,7 +41,7 @@ export class ContactsComponent implements OnInit {
       this.user = data;
     });
     this.clickObservable$.subscribe(() =>
-      console.log(this.counter++ + ' הדום נלחץ!!! פעם ')
+      console.log(this.counter++ + ' הדום נלחץ!! פעם ')
     );
   }
 }
